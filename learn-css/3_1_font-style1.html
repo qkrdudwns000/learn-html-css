@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Font Style 1</title>
+  <style>
+    /* 구글 웹폰트에서 @import하여 바로 사용 */
+    @import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+    html{
+      /* 해당 폰트가 호환이 안 될 경우를 대비하여 다중으로 폰트를 설정해둘 수 있음 */
+      /* font-family: serif, monospace; */
+      font-family: 'Diphylleia', serif;
+      font-size:30px;
+    }
+    .title{
+      font-size: 28px;
+      color: rgba(63, 63, 189, 0.329);
+    }
+    .content{
+      font-size: 18px;
+    }
+    .font-italic{
+      font-style: italic;
+    }
+    .font-weight-bold{
+      font-weight: bold;
+    }
+    .font-weight-300{
+      font-weight: 300;
+    }
+    .font-variant{
+      font-variant: small-caps;
+    }
+    .subtitle{
+      font-size:20px
+    }
+    .subtitle-rem{
+      font-size: 2rem;
+    }
+    .subtitle-em{
+      font-size:2em;
+    }
+    .article{
+      font-size: 15px;
+    }
+    .rectangle.width{
+      width: 20vw;
+      height: 100px;
+      background-color: yellow;
+    }
+    .rectangle.height{
+      height: 20vh;
+      width: 100px;
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <h2 class="title">박영준의 코딩 공부</h2>
+  <p class="content">안녕하세요 저는 박영준입니다.</p>
+  <p class="content font-italic">안녕하세요 저는 박영준입니다.</p>
+  <p class="content font-weight-bold">안녕하세요 저는 박영준입니다.</p>
+  <p class="content font-weight-300">안녕하세요 저는 박영준입니다.</p>
+  <p class="content font-variant">HELLO, youngjun</p>
+  <hr>
+  <h1>단위</h1>
+  <h2>px</h2>
+  <p class="subtitle">안녕하세요 저는 박영준입니다.</p>
+  <h2>rem</h2>
+  <!-- 최상위 태그에서의 배율 -->
+  <p class="subtitle-rem">안녕하세요 저는 박영준입니다.</p>
+  <h2>em</h2>
+  <!-- 자기자신 부모 태그에서의 배율 -->
+  <div class="article">
+    <p class="subtitle-em">안녕하세요 저는 박영준입니다.</p>
+  </div>
+  <hr>
+  <!-- Viewport -> 웹사이즈 전체크기 1 = 100vw or vh -->
+  <!-- Viewport width -->
+  <h2>vw</h2>
+  <div class="rectangle width"></div>
+  <!-- Viewport Height -->
+  <h2 class="rectangle height">vh</h2>
+  <div></div>
+
+</body>
+</html>
