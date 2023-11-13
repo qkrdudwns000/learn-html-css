@@ -1,0 +1,53 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display</title>
+  <style>
+    /* 기본적으로 가로를 다채우며 width height 속성으로 변경가능 */
+    div,
+    h2{
+      border: 1px solid grey;
+      /* 아예 영역을 차지 하지 않게 */
+      /* display: none; */
+    }
+    /* content만큼의 크기를 가지며 width height 속성으로 변경 불가능 */
+    span,
+    a{
+      border: 1px solid blue;
+    }
+    /* Inline처럼 content만큼의 크기를 가지나 width, height속성으로 변경이 가능 */
+    article > div, 
+    article > span{
+      display: inline-block;
+      width: 100px;
+      height: 60px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Display Block</h1>
+  <div>content</div>
+  <div>content</div>
+  <div>content</div>
+  <h2>title</h2>
+
+  <h1>Display Inline</h1>
+  <span>content</span>
+  <span>content</span>
+  <span>content</span>
+  <a href="#">Naver</a>
+
+  <article>
+    <h1>Display Inline Block</h1>
+    <div>content</div>
+    <div>content</div>
+    <div>content</div>
+    <span>content</span>
+    <span>content</span>
+    <span>content</span>
+  </article>
+  
+</body>
+</html>
