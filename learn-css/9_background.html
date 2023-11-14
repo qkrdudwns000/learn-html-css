@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="korea">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Backgrond</title>
+  <style>
+    .red{
+      background-color: #ff0000a6;
+      width: 200px;
+      height: 120px;
+    }
+    .image{
+      background-image: url('../assets/images/title.JPG');
+      background-repeat: repeat;
+      background-position: center;
+      width: 800px;
+      height: 400px;
+      border: 5px solid black;
+      border-radius: 10%;
+      display: inline-block;
+      overflow: scroll;
+    }
+    .attachment-scoll{
+      background-attachment: scroll;
+    }
+    .attachment-fixed{
+      background-attachment: fixed;
+    }
+    .attachment-local{
+      background-attachment: local;
+    }
+    .background-size{
+      width: 800px;
+      height: 100px;
+      background-image: url("../assets/images/loading.JPG");
+      background-size: cover;
+      border: 1px solid black;
+    }
+    .linear-gradient{
+      width: 500px;
+      height: 200px;
+      border: 1px solid black;
+      background: linear-gradient(to right,red 50%, blue 80%, yellow);
+    }
+    .radial-gradient{
+      width: 500px;
+      height: 200px;
+      border: 1px solid blue;
+      background: radial-gradient(circle at 10%,white,yellow, red);
+    }
+  </style>
+</head>
+<body>
+  <h3>Background-color</h3>
+  <div class="red"></div>
+
+  <h3>Background-image</h3>
+  <div class="image attachment-scroll">
+    <h4>scroll</h4>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse harum, tempora consequuntur quisquam ipsam similique alias perspiciatis quam magni soluta odio quidem vero optio quos. Temporibus id veniam eaque perferendis?
+  Eligendi error excepturi, laboriosam pariatur tempora nobis vero ratione rerum id quasi doloremque voluptatibus incidunt accusamus molestias earum quisquam aliquid sunt. Soluta, expedita! Nihil, culpa. Hic, id. Rerum, tempore sapiente.
+  Nobis mollitia deserunt, quidem sed quis id dolorem velit quos, a minus eveniet! Reiciendis perspiciatis ad autem rem optio, ducimus temporibus, ex excepturi provident distinctio veniam aliquam necessitatibus! Consectetur, ad.
+  Laudantium in aliquid cupiditate fugit debitis consectetur quidem fuga cumque nemo delectus corrupti, adipisci, voluptatibus dolorum. Assumenda excepturi hic at magni recusandae, quos consequuntur, adipisci praesentium placeat quam iusto voluptatum?
+  Soluta facere quam odio vero, maxime cumque placeat. Molestiae corporis nam officiis quae deleniti eum laborum odit, pariatur cupiditate, unde earum deserunt, totam architecto ullam dolore aspernatur sapiente itaque dicta.
+  Dolorum iusto fugiat, accusantium voluptatem velit possimus quaerat magni enim aliquid, saepe dicta? Veniam id quo voluptate est ipsa, porro ad accusantium, ipsum eum sapiente maiores a, ut repellendus laborum?
+  Tempora similique expedita quibusdam nisi ab! Sit maiores beatae reiciendis quidem amet rem iusto id doloremque molestiae veritatis ad odio consequuntur ullam, sequi, exercitationem velit accusamus incidunt possimus atque quod?
+  Explicabo mollitia libero, minima repellendus voluptatem molestias fuga tempore eos omnis, sunt, harum aliquid officiis error inventore vitae consequatur cupiditate optio. Quia numquam inventore quas maiores voluptate libero nisi voluptates.
+  </div>
+  
+  <div class="image attachment-fixed">
+    <h4>fixed</h4>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse harum, tempora consequuntur quisquam ipsam similique alias perspiciatis quam magni soluta odio quidem vero optio quos. Temporibus id veniam eaque perferendis?
+  Eligendi error excepturi, laboriosam pariatur tempora nobis vero ratione rerum id quasi doloremque voluptatibus incidunt accusamus molestias earum quisquam aliquid sunt. Soluta, expedita! Nihil, culpa. Hic, id. Rerum, tempore sapiente.
+  Nobis mollitia deserunt, quidem sed quis id dolorem velit quos, a minus eveniet! Reiciendis perspiciatis ad autem rem optio, ducimus temporibus, ex excepturi provident distinctio veniam aliquam necessitatibus! Consectetur, ad.
+  Laudantium in aliquid cupiditate fugit debitis consectetur quidem fuga cumque nemo delectus corrupti, adipisci, voluptatibus dolorum. Assumenda excepturi hic at magni recusandae, quos consequuntur, adipisci praesentium placeat quam iusto voluptatum?
+  Soluta facere quam odio vero, maxime cumque placeat. Molestiae corporis nam officiis quae deleniti eum laborum odit, pariatur cupiditate, unde earum deserunt, totam architecto ullam dolore aspernatur sapiente itaque dicta.
+  Dolorum iusto fugiat, accusantium voluptatem velit possimus quaerat magni enim aliquid, saepe dicta? Veniam id quo voluptate est ipsa, porro ad accusantium, ipsum eum sapiente maiores a, ut repellendus laborum?
+  Tempora similique expedita quibusdam nisi ab! Sit maiores beatae reiciendis quidem amet rem iusto id doloremque molestiae veritatis ad odio consequuntur ullam, sequi, exercitationem velit accusamus incidunt possimus atque quod?
+  Explicabo mollitia libero, minima repellendus voluptatem molestias fuga tempore eos omnis, sunt, harum aliquid officiis error inventore vitae consequatur cupiditate optio. Quia numquam inventore quas maiores voluptate libero nisi voluptates.
+  </div>
+  
+  <div class="image attachment-local">
+    <h4>local</h4>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse harum, tempora consequuntur quisquam ipsam similique alias perspiciatis quam magni soluta odio quidem vero optio quos. Temporibus id veniam eaque perferendis?
+  Eligendi error excepturi, laboriosam pariatur tempora nobis vero ratione rerum id quasi doloremque voluptatibus incidunt accusamus molestias earum quisquam aliquid sunt. Soluta, expedita! Nihil, culpa. Hic, id. Rerum, tempore sapiente.
+  Nobis mollitia deserunt, quidem sed quis id dolorem velit quos, a minus eveniet! Reiciendis perspiciatis ad autem rem optio, ducimus temporibus, ex excepturi provident distinctio veniam aliquam necessitatibus! Consectetur, ad.
+  Laudantium in aliquid cupiditate fugit debitis consectetur quidem fuga cumque nemo delectus corrupti, adipisci, voluptatibus dolorum. Assumenda excepturi hic at magni recusandae, quos consequuntur, adipisci praesentium placeat quam iusto voluptatum?
+  Soluta facere quam odio vero, maxime cumque placeat. Molestiae corporis nam officiis quae deleniti eum laborum odit, pariatur cupiditate, unde earum deserunt, totam architecto ullam dolore aspernatur sapiente itaque dicta.
+  Dolorum iusto fugiat, accusantium voluptatem velit possimus quaerat magni enim aliquid, saepe dicta? Veniam id quo voluptate est ipsa, porro ad accusantium, ipsum eum sapiente maiores a, ut repellendus laborum?
+  Tempora similique expedita quibusdam nisi ab! Sit maiores beatae reiciendis quidem amet rem iusto id doloremque molestiae veritatis ad odio consequuntur ullam, sequi, exercitationem velit accusamus incidunt possimus atque quod?
+  Explicabo mollitia libero, minima repellendus voluptatem molestias fuga tempore eos omnis, sunt, harum aliquid officiis error inventore vitae consequatur cupiditate optio. Quia numquam inventore quas maiores voluptate libero nisi voluptates.
+  </div>
+  <h3>background-size</h3>
+  <div class="background-size"></div>
+  <h3>linear-gradient</h3>
+  <div class="linear-gradient"></div>
+  <h3>radial-gradient</h3>
+  <div class="radial-gradient"></div>
+  
+  <div style="height: 1000px; width: 10px; background-color: red;"></div>
+  
+</body>
+</html>
